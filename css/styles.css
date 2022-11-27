@@ -36,9 +36,21 @@ body {
     background-color: var(--white-color);
 }
 
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid rgb(215, 65, 38);
+
+}
+
 
 /* header */
-
+.page-header{
+        
+}
              /* Logo */
 .logo-studio {
   
@@ -66,6 +78,25 @@ body {
     color:var(--title-text-color);
     text-decoration: none;
 }        
+
+.nav-list{
+        padding: 0;
+        margin: 0;
+}
+
+.auth-nav{
+        padding: 0;
+        margin: 0;
+}
+
+.auth-nav-item {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--main-text-color);
+    text-decoration: none;
+}
+
 .none-decoration {
     text-decoration: none;
     list-style: none;
@@ -81,26 +112,44 @@ body {
 }
 
             /* hero */
+.hero-section{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #2F303A;
+    height: 600px;
+    width: 1600px;
+    text-align: center;
+}
+            
 .hero-header {
+    margin-top: 0;
+    margin-bottom: 0;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    
     color:var(--white-color);
-    background-color: #000; 
-    /* временный фон, чтобы текст видно */
 }
 
 .hero-button {
+    display: inline-block;
+    position: absolute;
+    min-width: 216px;
+    
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+
     color:var(--title-text-color);
     background:var(--button-bcgcolor);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+
     border-radius: 4px;
     cursor: pointer;
 }
@@ -118,8 +167,20 @@ body {
     color:var(--main-text-color);
 }
 
-.our-benefits-mainheader,
-.what-are-wedoing-mainheader,
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
 .ourteam-mainheader {
     font-weight: 700;
     font-size: 36px;
