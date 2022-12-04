@@ -159,8 +159,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
     width: 100%;
     padding-top: 94px;
     padding-bottom: 94px;
-
-        outline: 2px solid rgb(215, 65, 38);
 }
             
 .hero-container{
@@ -254,7 +252,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
-    padding-bottom: 94px;
     gap: 30px;
         
         
@@ -309,7 +306,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .ourteam-list{
     display: flex;
     gap: 30px;
-    padding-bottom: 94px;
 }
 
 
@@ -317,7 +313,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
 font-size: 36px;
     line-height: 1.2;
     text-align: center;
-    padding-top: 94px;
     margin-bottom: 50px;
     color: var(--title-text-color);
 }
@@ -394,4 +389,27 @@ font-size: 36px;
 .portfolio-button:focus {
     color:var(--white-color);
     background-color: var(--accent-text-color);
+}
+
+.button-container{
+        display: flex;
+            gap: 8px;
+            justify-content: center;
+
+            padding-top: 94px;
+            padding-bottom: 34px;
+}
+
+.wrkexamples-container{
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-basis: calc((100% - 60px) / 3);
+            padding-top: 0;
+            padding-bottom: 94px;
+}
+
+.portfolio-items{
+        border-bottom: 1px solid #ECECEC;
 }
